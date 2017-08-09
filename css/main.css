@@ -1,0 +1,656 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html, button, input, select, textarea { color: #222; }
+body { font-size: 1em; line-height: 1.4; }
+
+::-moz-selection { background: #b3d4fc; text-shadow: none; }
+::selection { background: #b3d4fc; text-shadow: none; }
+.chromeframe { margin: 0.2em 0; background: #ccc; color: #000; padding: 0.2em 0;}
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+img { vertical-align: middle; }
+a{ text-decoration: none; }
+body { font: 16px/26px Helvetica, Helvetica Neue, Arial;  -webkit-font-smoothing: antialiased; font-smooth: always; text-shadow: 1px 1px 1px rgba(0,0,0,0.004);}
+
+
+
+
+
+/* ==========================================================================
+   Insert Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Main Theme Styles
+   ========================================================================== */
+
+.wrapper { 
+	width: 100%; 
+	max-width: 1140px; 
+	margin: 0 auto; 
+	padding: 0 20px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.header-container.back-img{
+	background: url(../img/bg_1.jpg) center top no-repeat;
+	background-size: cover;
+}
+
+.header-container {
+    background: #f3f8fc; /* Adjust Background colour of header */
+    color: #525b60;  /* Adjust colour of header text */
+	padding-top: 100px;
+}
+
+.header-container h1.logo{
+	position: relative;
+	width: 271px; /* Adjust Width for Logo if needed */
+	height: auto; 
+	margin: 0;
+}
+
+.header-container h1.logo img{
+	max-width: 100%;
+	height: auto;
+}
+
+.header-container h3{
+	color: #2e353a;
+	font-weight: normal;
+	font-size: 1.6em;
+	line-height: 1.2;
+}
+
+.header-container h4{
+	font-weight: 700;
+	color: #f49b41;
+	margin-bottom: 5px;
+	margin-top: 60px;
+}
+
+.ctaColumn { 
+	float: right; 
+	width: 47.5%; 
+	padding-bottom: 80px; 
+	text-align: left; 
+	padding-top: 100px; 
+	margin-bottom: 50px;
+}
+
+.ctaColumn ul{
+	margin: 0;
+	padding: 20px 0;
+}
+
+.header-container li{
+	list-style-type: none;
+}
+
+.ctaColumn li{
+	display: inline-block;
+	text-align: center;
+}
+
+.ctaColumn li a{
+	opacity: .999;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+	width: 136px;
+	display: block;
+}
+
+.ctaColumn li a:hover{
+	opacity: .7;
+}
+
+.ctaColumn li a img{
+	width: 100%;
+}
+
+.available{
+	font-size: .9em;
+}
+
+.available, .available a {
+	font-weight: 700;
+	color: #c1d0dc; /* Change colour of alt app store links */
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+.available a:hover{
+	color: #6b7d84; /* Change colour of alt app store links on hover */
+}
+
+.ctaColumn input[type="text"]{
+	border-radius: 4px;
+	padding: 0.8em;
+	width: 85%;
+	border: 1px solid #e1e8ed;
+	color: #657884;
+	outline: none;
+	box-shadow: none;
+	-webkit-appearance:none;
+}
+
+.ctaColumn input[type="email"]{
+	border-radius: 4px;
+	padding: 0.8em;
+	width: 85%;
+	border: 1px solid #e1e8ed;
+	color: #657884;
+	outline: none;
+	box-shadow: none;
+	-webkit-appearance:none;
+}
+
+.signup{
+	position: relative;	
+}
+
+.signup:after{
+	content: "";
+	position: absolute;
+	right: 12%;
+	top: 15px;
+	background: url(../img/mailIcon@2x.png) no-repeat center 0;
+	background-size: 28px 14px; 
+	width: 28px;
+	height: 14px;
+}
+
+
+
+
+/* iPhone Slider Settings */
+.fader.iphone{
+	position: relative;
+	padding-bottom: 300px;
+	width: 286px;
+	margin-right: auto;
+	margin-left: auto;
+	background-size: 100%;
+	left: 140px;
+}
+
+.fader.iphone:before{
+	content: "";
+	position: absolute;
+	left: -315px;
+	top: 2px;
+	background: url(../img/iphone-silver@2x.png) no-repeat center 0;
+	background-size: 683px 926px;
+	width: 683px;
+	height: 926px;
+}
+
+.fader.iphone.black:before{
+	background: url(../img/iphone-black@2x.png) no-repeat center 0;
+	background-size: 683px 926px;
+}
+
+.fader.iphone .flexslider1{
+	width: 270px;
+	height: 481px;
+	position: relative;
+	top: 75px;
+	left: 0px;
+	margin: 0px;
+}
+
+.fader.iphone .flex-control-nav{
+	bottom: -60px;
+}
+/* End iPhone Slider Settings */
+
+
+
+/* Galaxy Slider Settings */
+.fader.gallaxy{
+	position: relative;
+	padding-bottom: 300px;
+	width: 286px;
+	margin-right: auto;
+	margin-left: auto;
+	background-size: 100%;
+	left: 140px;
+}
+
+.fader.gallaxy:before{
+	content: "";
+	position: absolute;
+	left: -309px;
+	top: 1px;
+	background: url(../img/galaxy-gold@2x.png) no-repeat center 0;
+	background-size: 690px 955px;
+	width: 690px;
+	height: 955px;
+}
+
+.fader.gallaxy.black:before{
+	background: url(../img/galaxy-black@2x.png) no-repeat center 0;
+	background-size: 690px 955px;
+}
+
+.fader.gallaxy .flexslider1{
+	width: 287px;
+	height: 514px;
+	position: relative;
+	top: 75px;
+	left: 0px;
+	margin: 0px;
+}
+
+.fader.gallaxy .flex-control-nav{
+	bottom: -50px;
+}
+/* End Galaxy Slider Settings */
+
+
+
+
+.fader { 
+	float: left; 
+	width: 35%;
+}
+
+.fader .flex-control-paging li a {
+	width: 11px; 
+	height: 11px; 
+	display: block; 
+	background: #485762; /* Change colour of iphone nav dots */
+	cursor: pointer; 
+	text-indent: -9999px; 
+	border-radius: 20px;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out; 
+}
+
+.fader .flex-control-paging li a:hover { 
+	background: #5a6c79; /* Change colour of iphone nav dots on hover */
+}
+
+.fader .flex-control-paging li a.flex-active { 
+	background: #0ca2d9; /* Change colour of iphone nav dots when active */
+	cursor: default;
+}
+
+.fader .slides li img{
+	width: 100%;
+}
+
+
+.quote-container{
+	background: #f4c441; /* Adjust Background colour of Main Area */
+	color: black; /* Adjust colour of Main Text */
+	position: relative;
+	z-index: 1;
+	padding-top: 50px;
+	padding-bottom: 0;
+}
+
+.main-container{
+	background: #f4b841; /* Adjust Background colour of Main Area */
+	color: black; /* Adjust colour of Main Text */
+	position: relative;
+	z-index: 1;
+}
+
+.main {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.main-container h2{
+	color: #f3f8fc;
+}
+
+.main-container h6{
+	color: #3c444a;
+	font-size: 6em;
+	margin: 0.5em 0;
+}
+
+.main-container section{
+	margin-bottom: 40px;
+	float: left;
+	margin-right: 5%;
+}
+
+.flexslider2 {
+	margin-bottom: 70px;
+}
+
+.quote .slides li{
+	font-size: 1.8em;
+	line-height: 1.4;
+	font-weight: 100;
+	text-align: center;
+	padding-bottom: .5em;
+	width: 244px;
+}
+
+.quote .flex-control-paging li a {
+	width: 11px; 
+	height: 11px; 
+	display: block; 
+	background: #485762; /* Change colour of iphone nav dots */
+	cursor: pointer; 
+	text-indent: -9999px;
+	border-radius: 20px; 
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+.quote .flex-control-paging li a:hover { 
+	background: #5a6c79; /* Change colour of iphone nav dots on hover */
+}
+
+.quote .flex-control-paging li a.flex-active { 
+	background: #0ca2d9;  /* Change colour of iphone nav dots when active */
+	cursor: default;
+}
+
+.tool-container {
+    font-size: .8em;
+    padding-bottom: 70px;
+    padding-top: 40px;
+    float: center;
+}
+
+.tool-container ul{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	float: center;
+}
+
+.tool-container li:first-child{
+	display: inline-block;
+	text-align: center;
+	list-style-type: none;
+	margin-left: 30px;
+	font-size: 24px;
+	color: #485762;
+	font-style: normal;
+}
+
+.tool-container li{
+	display: inline-block;
+	text-align: center;
+	list-style-type: none;
+	margin-left: 30px;
+	font-size: 24px;
+	color: #485762;
+	font-style: normal;
+}
+
+
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */ 
+
+.footer-container {
+    background: #f49b41;  /* Adjust Background colour of Footer Area */
+    font-size: .8em;
+    padding-bottom: 70px;
+    padding-top: 40px;
+    position: relative;
+}
+
+.footer-container .footLogo{
+	position: relative;
+	width: 142px; /* Adjust Width for Logo if needed */
+	height: auto;
+	margin: 0 auto 40px;
+	float: left;
+}
+
+.footer-container ul{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	float: right;
+}
+
+.footer-container li{
+	display: inline-block;
+	text-align: center;
+	list-style-type: none;
+	margin-left: 30px;
+	font-size: 20px;
+}
+
+.footer-container li:first-child{
+	margin-left: 0;
+}
+
+.footer-container li a{
+	color: black; /* Change colour of footer links */
+	font-weight: 700;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+.footer-container li a:hover{
+	color: #fbfdff; /* Change colour of footer links on hover */
+}
+
+.footer-container footer {
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+@media only screen and (max-width: 960px) {
+	.wrapper{
+		width: 80%;	
+	}
+	
+	.header-container{
+		padding-top: 0;
+	}
+	
+	.fader,
+	.ctaColumn { 
+		float: none; 
+		width: 100%;
+	}
+	
+	
+	/* iPhone Slider Settings */
+	.fader.iphone{
+		padding-bottom: 220px;
+		width: 286px;
+		margin-right: auto;
+		margin-left: auto;
+		background-size: 100%;
+		left: 0px;
+	}
+	
+	.fader.iphone:before{
+		left: calc(50% - 163.5px);
+		background: url(../img/iphone-nohand-silver@2x.png) no-repeat center 0;
+		background-size: 311px 628px;
+		width: 311px;
+		height: 628px;
+	}
+	
+	.fader.iphone.black:before{
+		background: url(../img/iphone-nohand-black@2x.png) no-repeat center 0;
+		background-size: 311px 628px;
+	}
+	/* End iPhone Slider Settings */
+	
+	
+	
+	/* Galaxy Slider Settings */
+	.fader.gallaxy{
+		position: relative;
+		padding-bottom: 220px;
+		width: 286px;
+		margin-right: auto;
+		margin-left: auto;
+		background-size: 100%;
+		left: 0px;
+	}
+	
+	.fader.gallaxy:before{
+		left: calc(50% - 157.5px);
+		background: url(../img/gallaxy-nohand-gold@2x.png) no-repeat center 0;
+		background-size: 316px 660px;
+		width: 316px;
+		height: 660px;
+	}
+	
+	.fader.gallaxy.black:before{
+		background: url(../img/gallaxy-nohand-black@2x.png) no-repeat center 0;
+		background-size: 316px 660px;
+	}
+	
+	.fader.gallaxy .flexslider1{
+		width: 287px;
+		height: 514px;
+		position: relative;
+		top: 75px;
+		left: 0px;
+		margin: 0px;
+	}
+	/* End Galaxy Slider Settings */
+	
+	
+	
+	.ctaColumn{
+		text-align: center;
+		padding-bottom: 0;
+	} 
+	
+	.header-container h1.logo{
+		margin: 0 auto;
+	}
+	
+	.main-container section{
+		float: none;
+		margin-right: 0;
+		width: 100%;
+	}
+	
+	.ctaColumn input[type="text"]{
+		text-align: center;
+	}
+
+	.ctaColumn input[type="email"]{
+		text-align: center;
+	}
+	
+	.footer-container .footLogo{
+		float: none;
+		margin: 0 auto;
+		display: block;
+	}
+	
+	.footer-container ul{
+		float: none;
+		text-align: center;
+		margin-top: 3em;
+	}
+	
+	.footer-container{
+		padding-bottom: 50px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.wrapper{
+		width: 100%;	
+	}
+	
+	.fader.iphone{
+		-moz-transform: scale(.9) translateX(5px);
+		-webkit-transform: scale(.9) translateX(5px);
+		-o-transform: scale(.9) translateX(5px);
+		-ms-transform: scale(.9) translateX(5px);
+		transform: scale(.9) translateX(5px);
+	}
+ }
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+.last{ margin-right: 0!important;}
+
+
+
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+* { background: transparent !important; color: #000 !important; box-shadow:none !important; text-shadow: none !important;}
+a, a:visited { text-decoration: underline; }
+a[href]:after { content: " (" attr(href) ")";}
+abbr[title]:after { content: " (" attr(title) ")"; }
+.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
+img { max-width: 100% !important; page-break-inside: avoid; }
+
+@page { margin: 0.5cm; }
+p, h2, h3 { orphans: 3; widows: 3; }
+h2, h3 { page-break-after: avoid; }
+}
