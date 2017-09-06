@@ -376,6 +376,18 @@ body { font: 16px/26px Helvetica, Helvetica Neue, Arial;  -webkit-font-smoothing
 	cursor: default;
 }
 
+.container{
+    text-align:center;
+}
+
+.gallery{
+    display:inline-block;
+    margin:5px 20px;
+    padding:5px;
+    
+    border:1px solid #CCC;
+}
+
 .tool-container {
     font-size: .8em;
     padding-bottom: 70px;
